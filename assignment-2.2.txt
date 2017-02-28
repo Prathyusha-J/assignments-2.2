@@ -1,0 +1,44 @@
+                                                      Assignment 2.2
+
+1)HDFS:
+            1) HDFS is a Hadoop  Distributed File System used for Storing very large amount of data like terabytes and petabytes of data.
+            2) HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed to span large clusters
+                of commodity servers.
+            3) HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed to span large clusters
+                of commodity servers.
+            4) HDFS has a master/slave architecture. An HDFS cluster consists of a single NameNode, a master server.
+            5) HDFS supports a traditional hierarchical file organization.
+
+            FEATURES: 1) Utilities - rebalance the data on different nodes
+	                 2) Rollback - Allows operators to bring back the previous version of HDFS after an upgrade.
+
+            
+
+
+2)Hadoop Cluster:
+           1) Normally any set of computers that work together as a single system is called Cluster. A computer cluster used for Hadoop is 
+                called Hadoop Cluster. 
+           2) Hadoop clusters are comprised of three different node types: master nodes, worker nodes, and client nodes. 
+           3) Hadoop cluster is a special type of computational cluster designed for storing and analyzing vast amount of unstructured data
+               in a distributed computing environment. 
+          4) Large Hadoop Clusters are arranged in several racks. 
+          5) Each rack would have around 40 slave machine.At the top of each rack there is a rack switch.
+
+             COMPONENTS: 1) Client -  plays a role of loading the data into cluster, submit MapReduce jobs describing how the data should
+                                               be processed and then retrieve the data
+		      2) Master - The Masters consists of 3 components NameNode, Secondary Node name and JobTracker.
+		      3) Slave - Stores the data and processes  the computation.
+
+
+
+
+3)HDFS Blocks:
+          1) Hadoop distributed file system also stores the data in terms of blocks called HDFS blocks. The block size in HDFS is very large.                 
+          2) The main reason for having the HDFS blocks in large size is to reduce the cost of seek time. 
+          3) If the size of the file is less than the HDFS block size, then the file does not occupy the complete block storage.
+          4) The hadoop application is responsible for distributing the data blocks across multiple nodes. 
+
+	ADVANTAGES: 1) provide fault tolerance and high availability.
+		          2) HDFS block concept simplifies the storage of the datanodes.
+
+
